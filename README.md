@@ -31,10 +31,10 @@ Un peu de style, afin d'avoir une interface agréable.
 
 
 ## Installation des dépendances
-npm install
+```npm install```
 
 ## Lancement de Webpack
-Linux & MacOS: npm start
-Windows: npm run start-windows
+Linux & MacOS: ```npm start```
+Windows: ```npm run start-windows```
 
-http://localhost:3000
+```http://localhost:3000```
