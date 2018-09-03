@@ -1,4 +1,6 @@
-# Test: créer, modifier et supprimer une liste de personnage.
+# Test ReactJS
+
+Objectif: créer, modifier et supprimer une liste de personnage.
 
 Temps estimé: 3h
 
@@ -16,25 +18,16 @@ Il faut une page permettant de lister ces personnages, et une page permettant de
 Nous devons pouvoir accéder à l'édition d'un personnage via la liste, mais également via un lien http direct.
 
 
-## Infos techniques:
+## Infos techniques
 
-Tous les packages requis sont présents dans le package.json
+La structure du projet peut être créée avec le starter officiel [react-create-app](https://github.com/facebook/create-react-app), mais ça n'est pas une obligation.
+
 Il n'y a pas de back-end à faire (pas besoin de persistance des données).
-Pour le style, utilisation des CSS Modules (déjà configuré dans webpack.config). Si besoin: https://github.com/css-modules/css-modules/blob/master/README.md
 
 Points attendus:
 
-Utilisation de Redux pour la gestion des données
-Validation des données
-Routing
-Un peu de style, afin d'avoir une interface agréable.
-
-
-## Installation des dépendances
-```npm install```
-
-## Lancement de Webpack
-Linux & MacOS: ```npm start```
-Windows: ```npm run start-windows```
-
-```http://localhost:3000```
+* Gestion du routing
+* Utilisation de Redux
+* Validation des données de formumaire
+* Un peu de style, afin d'avoir une interface agréable (CSS modules ou CSS-in-JS)
+* Test unitaires avec Jest
