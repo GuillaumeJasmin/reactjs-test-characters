@@ -30,4 +30,5 @@ Points attendus:
 * Utilisation de Redux
 * Validation des données de formulaire
 * Un peu de style, afin d'avoir une interface agréable (CSS modules ou CSS-in-JS)
-* Test unitaires avec Jest
+
+Bonus: Test unitaires
